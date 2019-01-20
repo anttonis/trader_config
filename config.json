@@ -1,0 +1,32 @@
+{
+   "trackminer":"m02",
+   "urls":{
+     "ws_trader":["http://192.168.0.58:5000","http://127.0.0.1:5000"]
+   },
+   "default":{
+     "pair1":"BNB",
+     "pair2":"USDT",
+     "interval":"5m",
+     "buy_amount":10,
+     "sell_amount":10       
+   },
+  "test":{
+     "pair1":"BNB",
+     "pair2":"USDT",
+     "buy_amount":2,
+     "sell_amount":2       
+   },
+   "watchdog_working":true,
+   "wait_after_restart":800,
+   "miner_timeout":2400,
+   "watchdog_loop":140,
+   "usb_dev":{
+     "jumper":["restart","power","force_restart"],
+     "mode":"restart",
+     "shutdown":10,
+     "wait_between":5,
+     "power_on":1,
+     "restart_time":1       
+   },
+   "string":"AntTrader"
+}
