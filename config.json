@@ -3,18 +3,26 @@
   "urls":{
     "ws_trader":["http://192.168.0.58:5000","http://127.0.0.1:5000"]
   },
-  "default":{
-    "pair1":"BNB",
-    "pair2":"USDT",
-    "interval":"5m",
-    "buy_amount":10,
-    "sell_amount":10       
+  "trader":{
+    "default":{
+      "pair1":"BNB",
+      "pair2":"USDT",
+      "interval":"5m",
+      "buy_amount":10,
+      "sell_amount":10,
+      "run_param":[73.0, 64.25]
+    }
   },
   "test":{
     "pair1":"BNB",
     "pair2":"USDT",
     "buy_amount":2,
-    "sell_amount":2       
+    "sell_amount":2    
+  },  
+  "backtest":{
+    "pair1":"BNB",
+    "pair2":"USDT",
+    "initial_amount":1000
   },
   "email": {
     "sendFrom": "anttonisto@gmail.com",
