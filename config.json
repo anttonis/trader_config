@@ -2,7 +2,8 @@
   "trackminer":"m02",
   "ws_trader":{
     "urls":["http://192.168.0.58:5000","http://127.0.0.1:5000"],
-    "timeout":5
+    "timeout":5,
+    "send_email":False
   },
   "trader":{
     "default":{
