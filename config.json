@@ -2,7 +2,7 @@
   "trackminer":"m02",
   "traders":{
     "default":"default",
-    "anttrader":"96.9.211.108"
+    "96.9.211.108":"anttrader"
   },
   "ws_trader":{
     "urls":["http://192.168.0.58:5000","http://127.0.0.1:5000"],
