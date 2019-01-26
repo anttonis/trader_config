@@ -17,22 +17,6 @@
       "buy_amount":10,
       "sell_amount":10,
       "run_param":[73.0, 64.25]
-    },
-    "anttrader":{
-      "ws_trader":{
-        "ws_url1":"http://127.0.0.1:5000",
-        "ws_url2":"",
-        "timeout":3,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BNB",
-        "pair2":"USDT",
-        "interval":"5m",
-        "buy_amount":10,
-        "sell_amount":10,
-        "run_param":[73.0, 64.25]   
-      }
     }
   },
   "test":{
