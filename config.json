@@ -33,7 +33,7 @@
         "sell_amount":10,
         "run_param":[73.0, 64.25]   
       }
-    },
+    }
   },
   "test":{
     "pair1":"BNB",
