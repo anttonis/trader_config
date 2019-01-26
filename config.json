@@ -21,7 +21,7 @@
     "anttrader":{
       "ws_trader":{
         "ws_url1":"http://127.0.0.1:5000",
-        "ws_url1":"",
+        "ws_url2":"",
         "timeout":3,
         "send_email":false
       },
