@@ -1,5 +1,9 @@
 {
   "trackminer":"m02",
+  "traders":{
+    "default":"default",
+    "96.9.211.108":"anttrader"
+  },
   "ws_trader":{
     "urls":["http://192.168.0.58:5000","http://127.0.0.1:5000"],
     "timeout":5,
@@ -13,7 +17,23 @@
       "buy_amount":10,
       "sell_amount":10,
       "run_param":[73.0, 64.25]
-    }
+    },
+    "anttrader":{
+      "ws_trader":{
+        "ws_url1":"http://127.0.0.1:5000",
+        "ws_url1":"",
+        "timeout":3,
+        "send_email":false
+      },
+      "trader":{
+        "pair1":"BNB",
+        "pair2":"USDT",
+        "interval":"5m",
+        "buy_amount":10,
+        "sell_amount":10,
+        "run_param":[73.0, 64.25]   
+      }
+    },
   },
   "test":{
     "pair1":"BNB",
