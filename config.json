@@ -26,7 +26,7 @@
         "buy_amount":10,
         "sell_amount":10,
         "run_param":[83.5, 64.0],
-        "type":"market"
+        "type":"limit"
       }
     },
     "anttrader":{
