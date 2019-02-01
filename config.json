@@ -18,7 +18,16 @@
       "interval":"5m",
       "buy_amount":10,
       "sell_amount":10,
-      "run_param":[73.0, 64.25]
+      "run_param":[73.0, 64.25],
+      "trader":{
+        "pair1":"BNB",
+        "pair2":"USDT",
+        "interval":"5m",
+        "buy_amount":10,
+        "sell_amount":10,
+        "run_param":[83.5, 64.0],
+        "type":"limit"
+      }
     },
     "anttrader":{
       "ws_trader":{
@@ -35,7 +44,8 @@
         "interval":"5m",
         "buy_amount":10,
         "sell_amount":10,
-        "run_param":[83.5, 64.0]   
+        "run_param":[83.5, 64.0],
+        "type":"limit"
       }
     }
   },
