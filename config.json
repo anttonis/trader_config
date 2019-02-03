@@ -59,6 +59,8 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "initial_amount":1000,
+    "fee_buy":0.00075,
+    "fee_sell":0.00075,
     "param":[73.0, 64.25]
   },
   "backtest_compare":{
@@ -76,17 +78,5 @@
     "smtp": "smtp.gmail.com",
     "smtp_port": 587
   },     
-  "watchdog_working":true,
-  "wait_after_restart":800,
-  "miner_timeout":2400,
-  "watchdog_loop":140,
-  "usb_dev":{
-    "jumper":["restart","power","force_restart"],
-    "mode":"restart",
-    "shutdown":10,
-    "wait_between":5,
-    "power_on":1,
-    "restart_time":1       
-  },
   "string":"AntTrader 1.0 beta"
 }
