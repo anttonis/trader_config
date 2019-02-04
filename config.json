@@ -16,8 +16,8 @@
       "pair1":"BNB",
       "pair2":"USDT",
       "interval":"5m",
-      "buy_amount":10,
-      "sell_amount":10,
+      "buy_amount":100,
+      "sell_amount":100,
       "run_param":[73.0, 64.25],
       "trader":{
         "pair1":"BNB",
