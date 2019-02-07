@@ -46,7 +46,7 @@
         "interval":"5m",
         "buy_amount":50,
         "sell_amount":50,
-        "run_param":[83.5, 64.0],
+        "run_param":[71.5, 79.0],
         "type":"market"
       }
     },
