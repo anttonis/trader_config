@@ -26,7 +26,7 @@
         "pair1":"BNB",
         "pair2":"USDT",
         "interval":"5m",
-        "buy_amount":2.5,
+        "buy_amount":10,
         "sell_amount":10,
         "run_param":[71.5, 79.0],
         "type":"limit"
