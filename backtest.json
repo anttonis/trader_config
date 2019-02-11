@@ -44,22 +44,26 @@
       "wrnpctileTop":{
         "from":70,
         "to":88,
-        "step":0.5
+        "step":0.5,
+        "enabled":true
       },
       "wrnpctileBottom":{
         "from":63,
         "to":75,
-        "step":0.5        
+        "step":0.5,
+        "enabled":true
       },
       "doTradeInRestrictedArea":{
         "from":true,
         "to":false,
-        "step":null
+        "step":null,
+        "enabled":true
       },
       "dropThreshold":{
         "from":0.014,
         "to":0.031,
-        "step":0.001        
+        "step":0.001,
+        "enabled":true
       }
     }
   },
