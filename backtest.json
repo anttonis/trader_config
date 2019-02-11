@@ -1,1 +1,75 @@
-
+{
+  "traders":{
+    "default":"default",
+    "96.9.211.108":"anttrader",    
+    "2.223.149.20":"dev",
+    "165.225.80.61":"local",
+    "172.93.221.103":"anttrader_jp",
+    "89.212.238.206":"limit_order"
+  },
+  "ws_backtest":{
+    "urls":["http://127.0.0.1:5000", "http://192.168.0.58:5000"],
+    "trusted_pi_addresses":["96.9.211.108", "2.223.149.20", "165.225.80.61", "172.93.221.103", "89.212.238.206", "188.230.160.240"],
+    "timeout":3,
+    "send_email":false
+  },
+  "trader":{
+    "anttrader_jp":{
+      "ws_trader":{
+        "ws_run_as_ip":"127.0.0.1",
+        "ws_run_as_port":5000,
+        "ws_url1":"http://127.0.0.1:5000",
+        "ws_url2":"",
+        "timeout":3,
+        "send_email":false
+      },
+      "trader":{
+        "pair1":"BNB",
+        "pair2":"USDT",
+        "interval":"5m",
+        "buy_amount":2,
+        "sell_amount":2,
+        "run_param":[71.5, 79.0],
+        "type":"market"
+      }
+    }
+  },
+  "backtest":{
+    "pair1":"BNB",
+    "pair2":"USDT",
+    "initial_amount":1000,
+    "fee_buy":0.00075,
+    "fee_sell":0.00075,
+    "params":{
+      "wrnpctileTop":{
+        "from":70,
+        "to":88,
+        "step":0.5
+      },
+      "wrnpctileBottom":{
+        "from":63,
+        "to":75,
+        "step":0.5        
+      },
+      "doTradeInRestrictedArea":{
+        "from":true,
+        "to":false,
+        "step":null
+      },
+      "dropThreshold":{
+        "from":0.014,
+        "to":0.031,
+        "step":0.001        
+      }
+    }
+  },
+  "backtest_compare":{
+    "pair1":"BNB",
+    "pair2":"USDT",
+    "initial_amount":1000,
+    "param":[73.0, 64.25],
+    "fromDate":1547942400000,
+    "toDate":1548764100000
+  }, 
+  "string":"AntTrader - backtest 1.0 beta"
+}
