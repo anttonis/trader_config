@@ -25,8 +25,7 @@
         "to":88,
         "step":0.5,
         "enabled":true
-      }]
-    }
+    }]
   },
   "backtest_compare":{
     "pair1":"BNB",
