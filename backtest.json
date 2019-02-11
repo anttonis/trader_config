@@ -13,27 +13,6 @@
     "timeout":3,
     "send_email":false
   },
-  "trader":{
-    "anttrader_jp":{
-      "ws_trader":{
-        "ws_run_as_ip":"127.0.0.1",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://127.0.0.1:5000",
-        "ws_url2":"",
-        "timeout":3,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BNB",
-        "pair2":"USDT",
-        "interval":"5m",
-        "buy_amount":2,
-        "sell_amount":2,
-        "run_param":[71.5, 79.0],
-        "type":"market"
-      }
-    }
-  },
   "backtest":{
     "pair1":"BNB",
     "pair2":"USDT",
