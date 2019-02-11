@@ -18,14 +18,7 @@
     "pair2":"USDT",
     "initial_amount":1000,
     "fee_buy":0.00075,
-    "fee_sell":0.00075,
-    "params":[{
-        "name":"wrnpctileTop",
-        "from":70,
-        "to":88,
-        "step":0.5,
-        "enabled":true
-    }]
+    "fee_sell":0.00075
   },
   "backtest_compare":{
     "pair1":"BNB",
