@@ -75,7 +75,7 @@
         "ws_run_as_ip":"127.0.0.1",
         "ws_run_as_port":5000,
         "ws_url1":"http://188.230.160.240:5000",
-        "ws_url2":"",
+        "ws_url2":"http://127.0.0.1:5000",
         "timeout":3,
         "send_email":false
       },
