@@ -85,7 +85,7 @@
         "interval":"5m",
         "buy_amount":3,
         "sell_amount":3,
-        "run_param":[70.5, 70.0],
+        "run_param":[71.5, 79.0],
         "type":"limit"
       }
     }
