@@ -16,12 +16,6 @@
   },
   "trader":{
     "default":{
-      "pair1":"BNB",
-      "pair2":"USDT",
-      "interval":"5m",
-      "buy_amount":10,
-      "sell_amount":10,
-      "run_param":[73.0, 64.25, true, 0.02],
       "ws_trader":{
         "ws_run_as_ip":"127.0.0.1",
         "ws_run_as_port":5000,
@@ -98,20 +92,6 @@
       }
     }
   },
-  "backtest_compare":{
-    "pair1":"BNB",
-    "pair2":"USDT",
-    "initial_amount":1000,
-    "param":[73.0, 64.25],
-    "fromDate":1547942400000,
-    "toDate":1548764100000
-  },
-  "test":{
-    "pair1":"BNB",
-    "pair2":"USDT",
-    "buy_amount":2,
-    "sell_amount":2    
-  },  
   "email": {
     "sendFrom": "anttonisto@gmail.com",
     "sendTo": "anttonisto@gmail.com",
