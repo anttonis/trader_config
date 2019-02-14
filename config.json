@@ -104,22 +104,6 @@
     "buy_amount":2,
     "sell_amount":2    
   },  
-  "backtest":{
-    "pair1":"BNB",
-    "pair2":"USDT",
-    "initial_amount":1000,
-    "fee_buy":0.00075,
-    "fee_sell":0.00075,
-    "param":[73.0, 64.25]
-  },
-  "backtest_compare":{
-    "pair1":"BNB",
-    "pair2":"USDT",
-    "initial_amount":1000,
-    "param":[73.0, 64.25],
-    "fromDate":1547942400000,
-    "toDate":1548764100000
-  },
   "email": {
     "sendFrom": "anttonisto@gmail.com",
     "sendTo": "anttonisto@gmail.com",
