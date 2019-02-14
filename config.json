@@ -56,9 +56,9 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":true, 
-                     "dropThreshold":0.02
+                     "dropThreshold":0.023
                     },
-        "type":"market"
+        "type":"limit"
       }
     },
     "anttrader_jp":{
