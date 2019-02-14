@@ -21,7 +21,7 @@
       "interval":"5m",
       "buy_amount":10,
       "sell_amount":10,
-      "run_param":[73.0, 64.25],
+      "run_param":[73.0, 64.25, true, 0.02],
       "ws_trader":{
         "ws_run_as_ip":"127.0.0.1",
         "ws_run_as_port":5000,
@@ -36,7 +36,7 @@
         "interval":"5m",
         "buy_amount":10,
         "sell_amount":10,
-        "run_param":[71.5, 79.0],
+        "run_param":[71.5, 79.0, true, 0.02],
         "type":"limit"
       }
     },
@@ -74,7 +74,7 @@
         "interval":"5m",
         "buy_amount":2,
         "sell_amount":2,
-        "run_param":[71.5, 79.0],
+        "run_param":[71.5, 79.0, true, 0.02],
         "type":"market"
       }
     },
@@ -93,7 +93,7 @@
         "interval":"5m",
         "buy_amount":3,
         "sell_amount":3,
-        "run_param":[71.5, 79.0],
+        "run_param":[71.5, 79.0, true, 0.02],
         "type":"limit"
       }
     }
