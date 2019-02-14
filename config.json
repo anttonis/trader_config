@@ -100,7 +100,7 @@
         "buy_amount":3,
         "sell_amount":3,
         "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":79.0, 
+                     "wrnpctileBottom":78.0, 
                      "doTradeInRestrictedArea":true, 
                      "dropThreshold":0.02
                     },
