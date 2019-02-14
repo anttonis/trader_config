@@ -30,7 +30,11 @@
         "interval":"5m",
         "buy_amount":10,
         "sell_amount":10,
-        "run_param":[71.5, 79.0, true, 0.02],
+        "run_param":{"wrnpctileTop":71.5, 
+                     "wrnpctileBottom":79.0, 
+                     "doTradeInRestrictedArea":true, 
+                     "dropThreshold":0.02
+                    },
         "type":"limit"
       }
     },
@@ -49,7 +53,11 @@
         "interval":"5m",
         "buy_amount":50,
         "sell_amount":50,
-        "run_param":[71.5, 79.0],
+        "run_param":{"wrnpctileTop":71.5, 
+                     "wrnpctileBottom":79.0, 
+                     "doTradeInRestrictedArea":true, 
+                     "dropThreshold":0.02
+                    },
         "type":"market"
       }
     },
@@ -68,7 +76,11 @@
         "interval":"5m",
         "buy_amount":2,
         "sell_amount":2,
-        "run_param":[71.5, 79.0, true, 0.02],
+        "run_param":{"wrnpctileTop":71.5, 
+                     "wrnpctileBottom":79.0, 
+                     "doTradeInRestrictedArea":true, 
+                     "dropThreshold":0.02
+                    },
         "type":"market"
       }
     },
@@ -87,7 +99,11 @@
         "interval":"5m",
         "buy_amount":3,
         "sell_amount":3,
-        "run_param":[71.5, 79.0, true, 0.02],
+        "run_param":{"wrnpctileTop":71.5, 
+                     "wrnpctileBottom":79.0, 
+                     "doTradeInRestrictedArea":true, 
+                     "dropThreshold":0.02
+                    },
         "type":"limit"
       }
     }
