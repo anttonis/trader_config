@@ -22,6 +22,14 @@
       "buy_amount":10,
       "sell_amount":10,
       "run_param":[73.0, 64.25],
+      "ws_trader":{
+        "ws_run_as_ip":"127.0.0.1",
+        "ws_run_as_port":5000,
+        "ws_url1":"http://127.0.0.1:5000",
+        "ws_url2":"http://192.168.0.58:5000",
+        "timeout":3,
+        "send_email":false
+      },
       "trader":{
         "pair1":"BNB",
         "pair2":"USDT",
