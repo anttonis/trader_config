@@ -101,8 +101,8 @@
         "sell_amount":3,
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":78.0, 
-                     "doTradeInRestrictedArea":true, 
-                     "dropThreshold":0.02
+                     "doTradeInRestrictedArea":false, 
+                     "dropThreshold":0.024
                     },
         "type":"limit"
       }
