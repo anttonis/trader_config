@@ -19,22 +19,22 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "interval":"5m",
-    "from":1541630039000,
-    "to":1548547200000,
+    "from":1509940200000,
+    "to":1550426136000,
     "initial_amount":1000,
     "fee_buy":0.00075,
     "fee_sell":0.00075,
     "params":[{
         "name":"wrnpctileTop",
-        "from":70,
+        "from":68,
         "to":88,
-        "step":0.5,
+        "step":0.25,
         "enabled":true
       },{
         "name":"wrnpctileBottom",
         "from":63,
-        "to":75,
-        "step":0.5,
+        "to":83,
+        "step":0.25,
         "enabled":true
       },{
         "name":"doTradeInRestrictedArea",
@@ -44,9 +44,9 @@
         "enabled":true
       },{
         "name":"dropThreshold",
-        "from":0.014,
-        "to":0.027,
-        "step":0.002,
+        "from":0.012,
+        "to":0.028,
+        "step":0.001,
         "enabled":true
       }]
   },
