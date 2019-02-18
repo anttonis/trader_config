@@ -81,7 +81,7 @@
                      "doTradeInRestrictedArea":true, 
                      "dropThreshold":0.023
                     },
-        "type":"limit"
+        "type":"market"
       }
     },
     "limit_order":{
