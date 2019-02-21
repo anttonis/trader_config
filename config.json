@@ -32,7 +32,7 @@
         "sell_amount":10,
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":true, 
+                     "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.02
                     },
         "type":"limit"
@@ -55,7 +55,7 @@
         "sell_amount":50,
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":true, 
+                     "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.023
                     },
         "type":"limit"
@@ -78,7 +78,7 @@
         "sell_amount":50,
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":true, 
+                     "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.023
                     },
         "type":"market"
