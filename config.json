@@ -35,7 +35,8 @@
                      "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.02
                     },
-        "type":"limit"
+        "type":"limit",
+        "use_incomplete_ohlc":false
       }
     },
     "anttrader":{
@@ -58,7 +59,8 @@
                      "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.022
                     },
-        "type":"limit"
+        "type":"limit",
+        "use_incomplete_ohlc":false
       }
     },
     "anttrader_jp":{
@@ -81,7 +83,8 @@
                      "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.022
                     },
-        "type":"market"
+        "type":"market",
+        "use_incomplete_ohlc":true
       }
     },
     "limit_order":{
@@ -104,7 +107,8 @@
                      "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.024
                     },
-        "type":"limit"
+        "type":"limit",
+        "use_incomplete_ohlc":false
       }
     }
   },
