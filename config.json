@@ -36,7 +36,7 @@
                      "dropThreshold":0.02
                     },
         "type":"limit",
-        "use_incomplete_ohlc":false
+        "use_incomplete_ohlc":true
       }
     },
     "anttrader":{
