@@ -45,7 +45,7 @@
         "ws_run_as_port":5000,
         "ws_url1":"http://127.0.0.1:5000",
         "ws_url2":"",
-        "timeout":3,
+        "timeout":4,
         "send_email":false
       },
       "trader":{
