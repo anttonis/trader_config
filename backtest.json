@@ -63,6 +63,18 @@
         "to":0.25,
         "step":0.01,
         "enabled":true
+      },{
+        "name":"gShortlaguerrePPO",
+        "from":0.2,
+        "to":0.5,
+        "step":0.05,
+        "enabled":true
+      },{
+        "name":"gLonglaguerrePPO",
+        "from":0.7,
+        "to":0.9,
+        "step":0.05,
+        "enabled":true
       }]
   },
   "backtest_compare":{
