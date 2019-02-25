@@ -48,7 +48,7 @@
       },{
         "name":"dropThreshold",
         "from":0.022,
-        "to":0.0225,
+        "to":0.022,
         "step":0.001,
         "enabled":true
       },{
