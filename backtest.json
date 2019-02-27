@@ -29,8 +29,8 @@
     "process_batch":100,
     "params":[{
         "name":"wrnpctileTop",
-        "from":89,
-        "to":81,
+        "from":81,
+        "to":89,
         "step":0.2,
         "enabled":true
       },{
