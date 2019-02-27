@@ -36,7 +36,8 @@
                      "dropThreshold":0.02
                     },
         "type":"limit",
-        "use_incomplete_ohlc":true
+        "use_incomplete_ohlc":true,
+        "initial_trader_state":"None"
       }
     },
     "anttrader":{
@@ -60,7 +61,8 @@
                      "dropThreshold":0.022
                     },
         "type":"limit",
-        "use_incomplete_ohlc":false
+        "use_incomplete_ohlc":false,
+        "initial_trader_state":"None"
       }
     },
     "anttrader_jp":{
@@ -84,7 +86,8 @@
                      "dropThreshold":0.022
                     },
         "type":"market",
-        "use_incomplete_ohlc":true
+        "use_incomplete_ohlc":true,
+        "initial_trader_state":"None"
       }
     },
     "limit_order":{
@@ -108,7 +111,8 @@
                      "dropThreshold":0.024
                     },
         "type":"limit",
-        "use_incomplete_ohlc":false
+        "use_incomplete_ohlc":false,
+        "initial_trader_state":"None"
       }
     }
   },
