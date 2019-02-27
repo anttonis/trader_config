@@ -37,7 +37,7 @@
                     },
         "type":"limit",
         "use_incomplete_ohlc":true,
-        "initial_trader_state":null
+        "last_trader_state":null
       }
     },
     "anttrader":{
@@ -62,7 +62,8 @@
                     },
         "type":"market",
         "use_incomplete_ohlc":false,
-        "initial_trader_state":"buy"
+        "initial_trader_state":"buy",
+        "last_trader_state":"buy"
       }
     },
     "anttrader_jp":{
@@ -87,7 +88,7 @@
                     },
         "type":"market",
         "use_incomplete_ohlc":true,
-        "initial_trader_state":"buy"
+        "last_trader_state":"sell"
       }
     },
     "limit_order":{
@@ -112,7 +113,7 @@
                     },
         "type":"limit",
         "use_incomplete_ohlc":false,
-        "initial_trader_state":null
+        "last_trader_state":null
       }
     }
   },
