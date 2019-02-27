@@ -35,7 +35,7 @@
         "enabled":true
       },{
         "name":"wrnpctileBottom",
-        "from":61,
+        "from":60,
         "to":66,
         "step":0.2,
         "enabled":true
