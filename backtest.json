@@ -26,7 +26,7 @@
     "initial_amount":1000,
     "fee_buy":0.00075,
     "fee_sell":0.00075,
-    "process_batch":100,
+    "process_batch":1000,
     "params":[{
         "name":"wrnpctileTop",
         "from":70,
