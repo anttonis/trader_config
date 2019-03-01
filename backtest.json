@@ -21,22 +21,22 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "interval":"5m",
-    "from":1544227200000,
-    "to":1551052800000,
+    "from":1550188800000,
+    "to":1550189100000,
     "initial_amount":1000,
     "fee_buy":0.00075,
     "fee_sell":0.00075,
     "process_batch":100,
     "params":[{
         "name":"wrnpctileTop",
-        "from":85,
+        "from":70,
         "to":90,
-        "step":0.5,
+        "step":0.2,
         "enabled":true
       },{
         "name":"wrnpctileBottom",
         "from":60,
-        "to":66,
+        "to":90,
         "step":0.2,
         "enabled":true
       },{
