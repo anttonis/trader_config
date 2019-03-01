@@ -22,7 +22,7 @@
     "pair2":"USDT",
     "interval":"5m",
     "from":1550188800000,
-    "to":1550189100000,
+    "to":1551458400000,
     "initial_amount":1000,
     "fee_buy":0.00075,
     "fee_sell":0.00075,
