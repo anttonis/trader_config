@@ -53,9 +53,9 @@
         "enabled":true
       },{
         "name":"fastDropFrames",
-        "from":1,
+        "from":2,
         "to":6,
-        "step":1,
+        "step":2,
         "enabled":true
       },{
         "name":"cOverBoughtLRSI",
