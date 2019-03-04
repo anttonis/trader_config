@@ -30,12 +30,12 @@
         "pair1":"BNB",
         "pair2":"USDT",
         "interval":"5m",
-        "buy_amount":10,
-        "sell_amount":10,
+        "buy_amount":1.3,
+        "sell_amount":1.3,
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.02
+                     "dropThreshold":0.024
                     },
         "type":"limit",
         "use_incomplete_ohlc":true,
