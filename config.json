@@ -83,13 +83,13 @@
         "buy_amount":80,
         "sell_amount":80,
         "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":80.0, 
+                     "wrnpctileBottom":84.0, 
                      "doTradeInRestrictedArea":false, 
                      "dropThreshold":0.023
                     },
         "type":"market",
         "use_incomplete_ohlc":true,
-        "last_trader_state":"buy"
+        "last_trader_state":"sell"
       }
     },
     "limit_order":{
