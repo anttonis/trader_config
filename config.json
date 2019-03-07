@@ -38,7 +38,7 @@
                      "dropThreshold":0.024
                     },
         "type":"limit",
-        "use_incomplete_ohlc":false,
+        "use_incomplete_ohlc":true,
         "last_trader_state":null
       }
     },
