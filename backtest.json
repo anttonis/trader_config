@@ -27,7 +27,7 @@
     "fee_buy":0.00075,
     "fee_sell":0.00075,
     "process_batch":500,
-    "indicator":{
+    "indicators":{
       "linRegWave_enabled":false
     },
     "params":[{
