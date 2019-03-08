@@ -24,8 +24,8 @@
     "from":1550188800000,
     "to":1551458400000,
     "initial_amount":1000,
-    "fee_buy":0.00075,
-    "fee_sell":0.00075,
+    "buy_fee":0.00075,
+    "sell_fee":0.00075,
     "process_batch":500,
     "indicators":{
       "linRegWave":false
