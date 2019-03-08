@@ -28,7 +28,7 @@
     "fee_sell":0.00075,
     "process_batch":500,
     "indicators":{
-      "linRegWave_enabled":false
+      "linRegWave":false
     },
     "params":[{
         "name":"wrnpctileTop",
