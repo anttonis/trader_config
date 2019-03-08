@@ -53,15 +53,15 @@
         "enabled":true
       },{
         "name":"fastDropFrames",
-        "from":2,
-        "to":7,
-        "step":1,
+        "from":4,
+        "to":4,
+        "step":0,
         "enabled":true
       },{
         "name":"dropPriceFromBuySellTolerance",
         "from":0.03,
-        "to":0.04,
-        "step":0.001,
+        "to":0.05,
+        "step":0.002,
         "enabled":true
       },{
         "name":"cOverBoughtLRSI",
