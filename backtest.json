@@ -21,18 +21,18 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "interval":"5m",
-    "from":1550188800000,
-    "to":1552060800000,
+    "from":1551744000000,
+    "to":1552324800000,
     "initial_amount":1000,
     "buy_fee":0.00075,
     "sell_fee":0.00075,
     "process_batch":500,
     "indicators":{
-      "linRegWave":true
+      "linRegWave":false
     },
     "params":[{
         "name":"wrnpctileTop",
-        "from":70,
+        "from":68,
         "to":86,
         "step":0.5,
         "enabled":true
@@ -80,8 +80,8 @@
         "enabled":true
       },{
         "name":"gShortlaguerrePPO",
-        "from":0.2,
-        "to":0.5,
+        "from":0.4,
+        "to":0.4,
         "step":0.0,
         "enabled":true
       },{
