@@ -92,7 +92,7 @@
                     },
         "type":"market",
         "use_incomplete_ohlc":true,
-        "last_trader_state":"sell"
+        "last_trader_state":"buy"
       }
     },
     "limit_order":{
