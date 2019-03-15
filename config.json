@@ -62,11 +62,11 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.022
+                     "dropThreshold":0.024
                     },
         "type":"market",
         "use_incomplete_ohlc":false,
-        "last_trader_state":"sell"
+        "last_trader_state":"buy"
       }
     },
     "anttrader_jp":{
