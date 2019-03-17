@@ -21,24 +21,24 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "interval":"5m",
-    "from":1544227200000,
-    "to":1552780800000,
-    "initial_amount":1000,
-    "buy_fee":0.00075,
-    "sell_fee":0.00075,
-    "process_batch":500,
+    "from": 1509940200000,
+    "to": 1552752000000,
+    "initial_amount": 1000,
+    "buy_fee": 0.00075,
+    "sell_fee": 0.00075,
+    "process_batch": 100,
     "indicators":{
       "linRegWave":false
     },
     "params":[{
-        "name":"wrnpctileTop",
-        "from":60,
-        "to":86,
-        "step":0.5,
-        "enabled":true
+        "name": "wrnpctileTop",
+        "from": 63,
+        "to": 86,
+        "step": 0.5,
+        "enabled": true
       },{
         "name":"wrnpctileBottom",
-        "from":60,
+        "from":63,
         "to":86,
         "step":0.5,
         "enabled":true
@@ -49,11 +49,11 @@
         "step":null,
         "enabled":true
       },{
-        "name":"dropThreshold",
-        "from":0.02,
-        "to":0.026,
-        "step":0.001,
-        "enabled":true
+        "name": "dropThreshold",
+        "from": 0.02,
+        "to": 0.026,
+        "step": 0.0,
+        "enabled": true
       },{
         "name":"fastDropFrames",
         "from":3,
@@ -63,8 +63,8 @@
       },{
         "name":"dropPriceFromBuySellTolerance",
         "from":0.03,
-        "to":0.04,
-        "step":0.001,
+        "to":0.03,
+        "step":0.0,
         "enabled":true
       },{
         "name":"cOverBoughtLRSI",
