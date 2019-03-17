@@ -60,26 +60,6 @@
         "from":0.03,
         "to":0.03,
         "step":0.0
-      },{
-        "name":"cOverBoughtLRSI",
-        "from":0.81,
-        "to":0.83,
-        "step":0.0
-      },{
-        "name":"cOverSoldLRSI",
-        "from":0.21,
-        "to":0.25,
-        "step":0.0
-      },{
-        "name":"gShortlaguerrePPO",
-        "from":0.4,
-        "to":0.4,
-        "step":0.0
-      },{
-        "name":"gLonglaguerrePPO",
-        "from":0.8,
-        "to":0.8,
-        "step":0.0
       }]
   },
   "backtest_compare":{
