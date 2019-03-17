@@ -18,7 +18,7 @@
     "send_email":false
   },
   "backtest":{
-    "pair1":"BNB",
+    "pair1":"BTC",
     "pair2":"USDT",
     "interval":"5m",
     "from": 1502942400000,
