@@ -34,62 +34,52 @@
         "name": "wrnpctileTop",
         "from": 63,
         "to": 86,
-        "step": 0.5,
-        "enabled": true
+        "step": 0.5
       },{
         "name":"wrnpctileBottom",
         "from":63,
         "to":86,
-        "step":0.5,
-        "enabled":true
+        "step":0.5
       },{
         "name":"doTradeInRestrictedArea",
         "from":true,
         "to":false,
-        "step":null,
-        "enabled":true
+        "step":null
       },{
         "name": "dropThreshold",
         "from": 0.02,
         "to": 0.026,
-        "step": 0.0,
-        "enabled": true
+        "step": 0.0
       },{
         "name":"fastDropFrames",
         "from":3,
         "to":5,
-        "step":1,
-        "enabled":true
+        "step":1
       },{
         "name":"dropPriceFromBuySellTolerance",
         "from":0.03,
         "to":0.03,
-        "step":0.0,
-        "enabled":true
+        "step":0.0
       },{
         "name":"cOverBoughtLRSI",
         "from":0.81,
         "to":0.83,
-        "step":0.0,
-        "enabled":true
+        "step":0.0
       },{
         "name":"cOverSoldLRSI",
         "from":0.21,
         "to":0.25,
-        "step":0.0,
-        "enabled":true
+        "step":0.0
       },{
         "name":"gShortlaguerrePPO",
         "from":0.4,
         "to":0.4,
-        "step":0.0,
-        "enabled":true
+        "step":0.0
       },{
         "name":"gLonglaguerrePPO",
         "from":0.8,
         "to":0.8,
-        "step":0.0,
-        "enabled":true
+        "step":0.0
       }]
   },
   "backtest_compare":{
