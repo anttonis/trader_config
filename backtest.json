@@ -19,29 +19,29 @@
     "send_email":false
   },
   "backtest":{
-    "pair1":"ZEC",
+    "pair1":"BNB",
     "pair2":"BTC",
     "interval":"5m",
-    "from": 1546214400000,
-    "to": 1552867200000,
+    "from": 1551312000000,
+    "to": 1553040000000,
     "initial_amount": 1000,
     "buy_fee": 0.00075,
     "sell_fee": 0.00075,
-    "process_batch": 100,
+    "process_batch": 1000,
     "indicators":{
       "linRegWave":false
     },
     "params":[{
         "name": "wrnpctileTop",
-        "from": 63,
+        "from": 60,
         "to": 86,
-        "step": 0.5,
+        "step": 0.2,
         "enabled":true
       },{
         "name":"wrnpctileBottom",
-        "from":63,
+        "from":60,
         "to":86,
-        "step":0.5,
+        "step":0.2,
         "enabled":true
       },{
         "name":"doTradeInRestrictedArea",
@@ -52,20 +52,20 @@
       },{
         "name": "dropThreshold",
         "from": 0.02,
-        "to": 0.026,
-        "step": 0.0,
+        "to": 0.027,
+        "step": 0.001,
         "enabled":true
       },{
         "name":"fastDropFrames",
         "from":3,
-        "to":5,
+        "to":6,
         "step":1,
         "enabled":true
       },{
         "name":"dropPriceFromBuySellTolerance",
         "from":0.03,
-        "to":0.03,
-        "step":0.0,
+        "to":0.041,
+        "step":0.001,
         "enabled":true
       }]
   },
