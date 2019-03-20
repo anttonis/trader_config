@@ -19,10 +19,10 @@
     "send_email":false
   },
   "backtest":{
-    "pair1":"BTC",
-    "pair2":"USDT",
+    "pair1":"ZEC",
+    "pair2":"BTC",
     "interval":"5m",
-    "from": 1502942400000,
+    "from": 1546214400000,
     "to": 1552867200000,
     "initial_amount": 1000,
     "buy_fee": 0.00075,
