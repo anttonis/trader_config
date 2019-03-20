@@ -23,7 +23,7 @@
     "pair2":"BTC",
     "interval":"5m",
     "from": 1551312000000,
-    "to": 1553040000000,
+    "to": 1553073900000,
     "initial_amount": 1000,
     "buy_fee": 0.00075,
     "sell_fee": 0.00075,
