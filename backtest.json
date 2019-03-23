@@ -20,7 +20,7 @@
   },
   "backtest":{
     "pair1":"BNB",
-    "pair2":"BTC",
+    "pair2":"USDT",
     "interval":"5m",
     "from": 1544621091000,
     "to": 1553073900000,
