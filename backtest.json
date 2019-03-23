@@ -20,28 +20,28 @@
   },
   "backtest":{
     "pair1":"BNB",
-    "pair2":"USDT",
+    "pair2":"BTC",
     "interval":"5m",
-    "from": 1551312000000,
+    "from": 1544621091000,
     "to": 1553073900000,
     "initial_amount": 1000,
     "buy_fee": 0.00075,
     "sell_fee": 0.00075,
-    "process_batch": 1000,
+    "process_batch": 500,
     "indicators":{
       "linRegWave":false
     },
     "params":[{
         "name": "wrnpctileTop",
-        "from": 84.4,
+        "from": 84,
         "to": 90,
-        "step": 0.2,
+        "step": 0.5,
         "enabled":true
       },{
         "name":"wrnpctileBottom",
-        "from":84.4,
+        "from":84,
         "to":90,
-        "step":0.2,
+        "step":0.5,
         "enabled":true
       },{
         "name":"doTradeInRestrictedArea",
@@ -52,19 +52,19 @@
       },{
         "name": "dropThreshold",
         "from": 0.02,
-        "to": 0.027,
+        "to": 0.026,
         "step": 0.001,
         "enabled":true
       },{
         "name":"fastDropFrames",
         "from":4,
-        "to":7,
+        "to":6,
         "step":1,
         "enabled":true
       },{
         "name":"dropPriceFromBuySellTolerance",
-        "from":0.03,
-        "to":0.039,
+        "from":0.030,
+        "to":0.038,
         "step":0.001,
         "enabled":true
       }]
