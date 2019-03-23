@@ -33,13 +33,13 @@
     },
     "params":[{
         "name": "wrnpctileTop",
-        "from": 84,
+        "from": 64,
         "to": 90,
         "step": 0.5,
         "enabled":true
       },{
         "name":"wrnpctileBottom",
-        "from":84,
+        "from":64,
         "to":90,
         "step":0.5,
         "enabled":true
