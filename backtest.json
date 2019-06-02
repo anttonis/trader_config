@@ -22,7 +22,7 @@
     "pair1":"BNB",
     "pair2":"USDT",
     "interval":"5m",
-    "from": 1554228000000,
+    "from": 1496275200000,
     "to": 1559498400000,
     "initial_amount": 1000,
     "buy_fee": 0.00075,
