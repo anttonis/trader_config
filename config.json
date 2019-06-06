@@ -38,7 +38,9 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.024
+                     "dropThreshold":0.024,
+                     "fastDropFrames":5,
+                     "dropPriceFromBuySellTolerance":0.032,
                     },
         "type":"limit",
         "use_incomplete_ohlc":true,
@@ -64,7 +66,9 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.024
+                     "dropThreshold":0.024,
+                     "fastDropFrames":5,
+                     "dropPriceFromBuySellTolerance":0.032,                     
                     },
         "type":"market",
         "use_incomplete_ohlc":false,
@@ -90,7 +94,9 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":79.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.023
+                     "dropThreshold":0.023,
+                     "fastDropFrames":5,
+                     "dropPriceFromBuySellTolerance":0.032,                     
                     },
         "type":"market",
         "use_incomplete_ohlc":true,
@@ -116,7 +122,9 @@
         "run_param":{"wrnpctileTop":71.5, 
                      "wrnpctileBottom":78.0, 
                      "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.024
+                     "dropThreshold":0.024,
+                     "fastDropFrames":5,
+                     "dropPriceFromBuySellTolerance":0.032,                     
                     },
         "type":"limit",
         "use_incomplete_ohlc":false,
