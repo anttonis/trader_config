@@ -4,12 +4,11 @@
     "default":"default",
     "96.9.211.108":"anttrader",    
     "2.121.50.128":"default",
-    "165.225.80.61":"default",
+    "165.225.80.50":"ticktrader",
     "172.93.221.103":"anttrader2",
     "172.93.221.153":"anttrader",
     "89.212.238.206":"limit_order",
-    "51.75.20.1":"default",
-    "217.169.53.124":"ticktrader"
+    "51.75.20.1":"default"
   },
   "ws_trader":{
     "urls":["http://127.0.0.1:5000", "http://192.168.0.58:5000"],
