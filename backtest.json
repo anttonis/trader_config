@@ -19,6 +19,7 @@
     "send_email":false
   },
   "backtest":{
+    "exchange":"binance",
     "pair1":"BTC",
     "pair2":"USDT",
     "interval":"1m",
