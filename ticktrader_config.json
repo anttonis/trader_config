@@ -1,0 +1,41 @@
+{
+    "traders":{
+      "default":"default",
+      "165.225.80.50":"ticktrader",
+      "172.93.221.137":"ticktrader",
+      "86.12.250.137":"ticktrader",
+      "172.93.221.153":"ticktrader",
+      "62.31.101.98":"ticktrader",
+      "51.75.20.1":"ticktrader"
+    },
+    "trusted_pi_addresses":[
+      "172.93.221.137", "51.75.20.1", "172.93.221.153", "103.199.16.216",
+      "62.31.101.98", "89.212.238.206", "188.230.160.240" 
+    ],  
+    "timeout":3,
+    "trader":{
+      "ticktrader":{
+        "ws_trader":{
+          "ws_run_as_ip":"127.0.0.1",
+          "ws_run_as_port":5000,
+          "ws_url1":"http://127.0.0.1:5000"
+        },
+        "trader":{
+          "pair1":"BTC",
+          "pair2":"USDT",
+          "trade_value_type":"percent",
+          "buy_amount":98,
+          "sell_amount":98,
+          "type":"market",
+          "last_trader_state":"sell",
+          "run_param":{
+            "min_buy_amount":300, 
+            "min_sell_amount":300,
+            "max_buy_count":8000, 
+            "max_sell_count":8000
+          }
+        }
+      }
+    }
+  }
+  
