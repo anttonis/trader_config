@@ -1,0 +1,16 @@
+{
+  "timeout":3,
+  "trader":{
+    "ticktrader":{
+      "trader":{
+        "pair1":"BTC",
+        "pair2":"USDT",
+        "trade_value_type":"percent",
+        "buy_amount":98,
+        "sell_amount":98,
+        "type":"market",
+        "last_trader_state":"sell"
+      }
+    }
+  }
+}
