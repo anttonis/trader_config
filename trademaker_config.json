@@ -5,10 +5,10 @@
       "trader":{
         "pair1":"BTC",
         "pair2":"USDT",
-        "trade_value_type":"percent",
+        "asset_trade_type":"percent",
         "buy_amount":98,
         "sell_amount":98,
-        "type":"market",
+        "order_type":"market",
         "last_trader_state":"sell"
       }
     }
