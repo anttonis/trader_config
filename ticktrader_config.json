@@ -1,23 +1,21 @@
 {
-    "timeout":3,
-    "traders":{
-      "ticktrader":{
-        "ws_trader":{
-          "ws_run_as_ip":"127.0.0.1",
-          "ws_run_as_port":5000,
-          "ws_url1":"http://127.0.0.1:5000"
-        },
-        "trader":{
-          "pair1":"BTC",
-          "pair2":"USDT",
-          "run_param":{
-            "min_buy_amount":300, 
-            "min_sell_amount":300,
-            "max_buy_count":8000, 
-            "max_sell_count":8000
-          }
-        }
+  "traders":{
+    "ticktrader":{
+      "ws_trader":{
+        "timeout":3,
+        "ws_run_as_ip":"127.0.0.1",
+        "ws_run_as_port":5000,
+        "ws_url1":"http://127.0.0.1:5000"
+      },
+      "pair1":"BTC",
+      "pair2":"USDT",
+      "run_param":{
+        "min_buy_amount":300, 
+        "min_sell_amount":300,
+        "max_buy_count":8000, 
+        "max_sell_count":8000
       }
     }
   }
+}
   
