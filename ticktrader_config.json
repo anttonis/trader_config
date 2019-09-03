@@ -1,4 +1,5 @@
 {
+  "observe_time":3,
   "traders":{
     "ticktrader":{
       "ws_trader":{
