@@ -8,7 +8,7 @@
         "ws_run_as_port":5000,
         "ws_url1":"http://127.0.0.1:5000"
       },
-      "pair1":"BTC",
+      "pair1":"BNB",
       "pair2":"USDT",
       "run_param":{
         "min_buy_amount":300, 
