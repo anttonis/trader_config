@@ -1,5 +1,6 @@
 {
   "observe_time":3,
+  "fetch_loop":80,
   "traders":{
     "ticktrader":{
       "ws_trader":{
