@@ -1,4 +1,5 @@
 {
+  "timeout":3,
   "observe_time":3,
   "fetch_loop":70,
   "traders":{
