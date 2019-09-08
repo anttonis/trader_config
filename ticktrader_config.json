@@ -1,7 +1,7 @@
 {
   "timeout":3,
   "observe_time":3,
-  "fetch_loop":70,
+  "fetch_loop":60,
   "traders":{
     "ticktrader":{
       "pair1":"BTC",
