@@ -1,14 +1,8 @@
 {
   "observe_time":3,
-  "fetch_loop":70,
+  "fetch_loop":70a,
   "traders":{
     "ticktrader":{
-      "ws_trader":{
-        "timeout":3,
-        "ws_run_as_ip":"127.0.0.1",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://127.0.0.1:5000"
-      },
       "pair1":"BTC",
       "pair2":"USDT",
       "run_param":{
