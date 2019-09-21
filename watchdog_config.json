@@ -16,7 +16,7 @@
             "module":"trade_fetcher",
             "server":"vie",
             "active":false,
-            "watch_loop":10
+            "watch_loop":60
         },
         "172.93.221.153":{
             "module":"tick_trader",
