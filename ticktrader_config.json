@@ -1,7 +1,7 @@
 {
   "timeout":3,
   "observe_time":3,
-  "fetch_loop":50,
+  "fetch_loop":100,
   "timeit_and_log":false,
   "traders":{
     "ticktrader":{
