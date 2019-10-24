@@ -11,9 +11,10 @@
       "last_trader_state":"sell"
     }
   },
-  "trade_server":{
+  "trades":{
     "172.93.221.153":"anttrader",
-    "172.93.221.137":"anttrader"
+    "172.93.221.137":"anttrader",
+    "86.12.250.137":"dev_trader"
   },
   "anttrader":{
     "timeout":3,
@@ -26,5 +27,18 @@
       "order_type":"market",
       "last_trader_state":"sell"
     }
+  },
+  "dev_trader":{
+    "timeout":3,
+    "ticktrader":{
+      "pair1":"BTC",
+      "pair2":"USDT",
+      "asset_trade_type":"percent",
+      "buy_amount":2,
+      "sell_amount":2,
+      "order_type":"market",
+      "last_trader_state":"sell"
+    }
   }
 }
+  
