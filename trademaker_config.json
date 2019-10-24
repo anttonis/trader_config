@@ -30,15 +30,12 @@
   },
   "dev_trader":{
     "timeout":3,
-    "ticktrader":{
-      "pair1":"BTC",
-      "pair2":"USDT",
-      "asset_trade_type":"percent",
-      "buy_amount":2,
-      "sell_amount":2,
-      "order_type":"market",
-      "last_trader_state":"sell"
-    }
+    "pair1":"BTC",
+    "pair2":"USDT",
+    "asset_trade_type":"percent",
+    "buy_amount":2,
+    "sell_amount":2,
+    "order_type":"market",
+    "last_trader_state":"sell"
   }
 }
-  
