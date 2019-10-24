@@ -1,145 +1,30 @@
 {
-  "trackminer":"m02",
+  "timeout":3,
   "traders":{
-    "default":"default",
-    "96.9.211.108":"anttrader",    
-    "103.199.16.216":"default",
-    "165.225.80.50":"ticktrader",
-    "172.93.221.137":"ticktrader",
-    "86.12.250.137":"ticktrader",
-    "172.93.221.153":"ticktrader",
-    "62.31.101.98":"ticktrader",
-    "89.212.238.206":"limit_order",
-    "51.75.20.1":"default"
-  },
-  "ws_trader":{
-    "urls":["http://127.0.0.1:5000", "http://192.168.0.58:5000"],
-    "trusted_pi_addresses":["96.9.211.108", "90.194.252.195", "2.121.50.128", 
-                            "165.225.80.61", "172.93.221.103", "51.75.20.1", "172.93.221.153",
-                            "89.212.238.206", "188.230.160.240", "103.199.16.216"],
-    "timeout":3,
-    "send_email":false
-  },
-  "trader":{
-    "default":{
-      "ws_trader":{
-        "ws_run_as_ip":"0.0.0.0",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://127.0.0.1:5000",
-        "ws_url2":"http://192.168.0.58:5000",
-        "timeout":3,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BNB",
-        "pair2":"USDT",
-        "interval":"5m",
-        "trade_value_type":"normal",
-        "buy_amount":1,
-        "sell_amount":1,
-        "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.024,
-                     "fastDropFrames":5,
-                     "dropPriceFromBuySellTolerance":0.032
-                    },
-        "type":"limit",
-        "use_incomplete_ohlc":true,
-        "last_trader_state":"buy"
-      }
-    },
-    "anttrader":{
-      "ws_trader":{
-        "ws_run_as_ip":"127.0.0.1",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://127.0.0.1:5000",
-        "ws_url2":"",
-        "timeout":4,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BNB",
-        "pair2":"USDC",
-        "interval":"5m",
-        "trade_value_type":"percent",
-        "buy_amount":2,
-        "sell_amount":95,
-        "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.022,
-                     "fastDropFrames":5,
-                     "dropPriceFromBuySellTolerance":0.034
-                    },
-        "type":"market",
-        "use_incomplete_ohlc":false,
-        "last_trader_state":"sell"
-      }
-    },
     "ticktrader":{
-      "ws_trader":{
-        "ws_run_as_ip":"127.0.0.1",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://127.0.0.1:5000",
-        "ws_url2":"",
-        "timeout":3,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BTC",
-        "pair2":"USDT",
-        "interval":"5m",
-        "trade_value_type":"percent",
-        "buy_amount":98,
-        "sell_amount":98,
-        "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":79.0, 
-                     "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.023,
-                     "fastDropFrames":5,
-                     "dropPriceFromBuySellTolerance":0.034
-                    },
-        "type":"market",
-        "use_incomplete_ohlc":true,
-        "last_trader_state":"sell"
-      }
-    },
-    "limit_order":{
-      "ws_trader":{
-        "ws_run_as_ip":"127.0.0.1",
-        "ws_run_as_port":5000,
-        "ws_url1":"http://188.230.160.240:5000",
-        "ws_url2":"http://127.0.0.1:5000",
-        "timeout":3,
-        "send_email":false
-      },
-      "trader":{
-        "pair1":"BNB",
-        "pair2":"USDT",
-        "interval":"5m",
-        "trade_value_type":"percent",
-        "buy_amount":3,
-        "sell_amount":3,
-        "run_param":{"wrnpctileTop":71.5, 
-                     "wrnpctileBottom":78.0, 
-                     "doTradeInRestrictedArea":false, 
-                     "dropThreshold":0.022,
-                     "fastDropFrames":5,
-                     "dropPriceFromBuySellTolerance":0.034
-                    },
-        "type":"limit",
-        "use_incomplete_ohlc":false,
-        "last_trader_state":"buy"
-      }
+      "pair1":"BTC",
+      "pair2":"USDT",
+      "asset_trade_type":"percent",
+      "buy_amount":2,
+      "sell_amount":2,
+      "order_type":"market",
+      "last_trader_state":"sell"
     }
   },
-  "email": {
-    "sendFrom": "anttonisto@gmail.com",
-    "sendTo": "anttonisto@gmail.com",
-    "username": "anttonisto@gmail.com",
-    "smtp": "smtp.gmail.com",
-    "smtp_port": 587
-  },     
-  "string":"AntTrader 1.0 beta"
+  "trades":{
+    "172.93.221.153":"anttrader",
+    "172.93.221.137":"anttrader"
+  },
+  "anttrader":{
+    "timeout":3,
+    "ticktrader":{
+      "pair1":"BTC",
+      "pair2":"USDT",
+      "asset_trade_type":"percent",
+      "buy_amount":2,
+      "sell_amount":2,
+      "order_type":"market",
+      "last_trader_state":"sell"
+    }
+  }
 }
