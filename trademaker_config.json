@@ -12,9 +12,11 @@
     }
   },
   "trade_server":{
-    "172.93.221.153":"anttrader",
-    "172.93.221.137":"anttrader",
-    "86.12.250.137":"dev_trader"
+    "172.93.221.153":["anttrader"],
+    "172.93.221.137":["ztrader"],
+    "86.12.250.137":["dev_trader"],
+    "62.31.101.98":["dev_trader"]
+
   },
   "anttrader":{
     "timeout":3,
@@ -28,6 +30,18 @@
       "last_trader_state":"sell"
     }
   },
+  "ztrader":{
+    "timeout":3,
+    "ticktrader":{
+      "pair1":"BTC",
+      "pair2":"USDT",
+      "asset_trade_type":"normal",
+      "buy_amount":0.0001,
+      "sell_amount":0.0001,
+      "order_type":"market",
+      "last_trader_state":"sell"
+    }
+  },
   "dev_trader":{
     "timeout":3,
     "pair1":"BTC",
@@ -37,5 +51,7 @@
     "sell_amount":2,
     "order_type":"market",
     "last_trader_state":"sell"
-  }
+  },
+  "_comment_asset_trade_type":["normal", "percent", "minimum"],
+  "_comment_btc_min_trade":[0.0001]
 }
