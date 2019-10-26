@@ -52,6 +52,7 @@
     "order_type":"market",
     "last_trader_state":"sell"
   },
+  "_comment_trade_server":["anttrader", "ztrader", "dev_trader"],
   "_comment_asset_trade_type":["normal", "percent", "minimum"],
   "_comment_btc_min_trade":[0.0001]
 }
