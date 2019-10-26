@@ -23,8 +23,8 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"normal",
-    "buy_amount":0.0001,
-    "sell_amount":0.0001,
+    "buy_amount":0.0015,
+    "sell_amount":0.0015,
     "order_type":"market",
     "last_trader_state":"sell"
   },
@@ -33,8 +33,8 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"normal",
-    "buy_amount":0.0001,
-    "sell_amount":0.0001,
+    "buy_amount":0.0015,
+    "sell_amount":0.0015,
     "order_type":"market",
     "last_trader_state":"sell"
   },
@@ -50,5 +50,5 @@
   },
   "_comment_trade_server":["anttrader", "ztrader", "dev_trader"],
   "_comment_asset_trade_type":["normal", "percent", "minimum"],
-  "_comment_btc_min_trade":[0.0001]
+  "_comment_btc_min_trade":[0.0015]
 }
