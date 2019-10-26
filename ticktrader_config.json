@@ -8,8 +8,8 @@
       "pair1":"BTC",
       "pair2":"USDT",
       "run_param":{
-        "min_buy_amount":100, 
-        "min_sell_amount":100,
+        "min_buy_amount":50, 
+        "min_sell_amount":50,
         "max_buy_count":8000, 
         "max_sell_count":800
       }
