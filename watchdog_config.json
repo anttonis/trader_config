@@ -45,5 +45,7 @@
         "172.93.221.137":1,
         "172.93.221.153":2,
         "51.75.20.13":3
-    }
+    },
+    "notify_type":["email", "slack"],
+    "_comment_notify_type":["email", "slack", "sms"]
 }
