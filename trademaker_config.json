@@ -19,7 +19,7 @@
     "188.230.160.240":["dev_trader"],
     "89.212.238.206":["dev_trader"],
     "62.254.132.162":["dev_trader"],
-    "51.75.20.1":["anttrader"]
+    "51.75.20.1":["account1, account2"]
   },
   "anttrader":{
     "timeout":3,
