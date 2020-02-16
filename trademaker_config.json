@@ -35,9 +35,9 @@
     "timeout":3,
     "pair1":"BTC",
     "pair2":"USDT",
-    "asset_trade_type":"normal",
-    "buy_amount":0.0015,
-    "sell_amount":0.0015,
+    "asset_trade_type":"percent",
+    "buy_amount":1,
+    "sell_amount":1,
     "order_type":"market",
     "last_trader_state":"sell"
   },
