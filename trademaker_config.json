@@ -19,7 +19,7 @@
     "188.230.160.240":["dev_trader"],
     "89.212.238.206":["dev_trader"],
     "62.254.132.162":["dev_trader"],
-    "51.75.20.1":["ztrader"]
+    "51.75.20.1":["ant_altcoin"]
   },
   "anttrader":{
     "timeout":3,
@@ -36,8 +36,8 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"percent",
-    "buy_amount":10,
-    "sell_amount":10,
+    "buy_amount":1,
+    "sell_amount":1,
     "order_type":"market",
     "last_trader_state":"sell"
   },  
