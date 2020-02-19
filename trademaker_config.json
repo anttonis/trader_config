@@ -31,6 +31,16 @@
     "order_type":"market",
     "last_trader_state":"sell"
   },
+  "ant_altcoin":{
+    "timeout":3,
+    "pair1":"BTC",
+    "pair2":"USDT",
+    "asset_trade_type":"percent",
+    "buy_amount":10,
+    "sell_amount":10,
+    "order_type":"market",
+    "last_trader_state":"sell"
+  },  
   "ztrader":{
     "timeout":3,
     "pair1":"BTC",
