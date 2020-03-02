@@ -12,6 +12,12 @@
             "active":true,
             "watch_loop":60
         },
+        "89.212.238.206":{
+            "module":"trade_fetcher",
+            "server":"slo",
+            "active":true,
+            "watch_loop":60
+        },
         "103.199.16.216":{
             "module":"trade_fetcher",
             "server":"vie",
