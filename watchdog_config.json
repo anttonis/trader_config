@@ -6,12 +6,6 @@
             "active":true,
             "watch_loop":60
         },
-        "51.75.20.1":{
-            "module":"trade_fetcher",
-            "server":"fra",
-            "active":true,
-            "watch_loop":60
-        },
         "89.212.238.206":{
             "module":"trade_fetcher",
             "server":"slo",
