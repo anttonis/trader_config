@@ -12,12 +12,6 @@
             "active":true,
             "watch_loop":60
         },
-        "103.199.16.216":{
-            "module":"trade_fetcher",
-            "server":"vie",
-            "active":true,
-            "watch_loop":60
-        },
         "172.93.221.153":{
             "module":"tick_trader",
             "server":"jp1",
