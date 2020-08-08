@@ -6,7 +6,7 @@
             "active":true,
             "watch_loop":60
         },
-        "89.212.238.206":{
+        "89.212.155.85":{
             "module":"trade_fetcher",
             "server":"slo",
             "active":true,
@@ -28,11 +28,11 @@
     "watchdog_priority":{
         "trade_fetcher":{
             "172.93.220.237":1,
-            "89.212.238.206":2
+            "89.212.155.85":2
         },
         "tick_trader":{
             "172.93.221.153":1,
-            "89.212.238.206":2
+            "89.212.155.85":2
         }
     },
     "tick_trader_priority":{
