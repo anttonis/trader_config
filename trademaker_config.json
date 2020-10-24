@@ -5,8 +5,8 @@
       "pair1":"BTC",
       "pair2":"USDT",
       "asset_trade_type":"percent",
-      "buy_amount":10,
-      "sell_amount":10,
+      "buy_amount":90,
+      "sell_amount":90,
       "order_type":"market",
       "last_trader_state":"sell"
     }
@@ -27,10 +27,10 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"percent",
-    "buy_amount":5,
-    "sell_amount":5,
+    "buy_amount":95,
+    "sell_amount":95,
     "order_type":"market",
-    "last_trader_state":"sell"
+    "last_trader_state":"buy"
   },
   "ant_altcoin":{
     "timeout":3,
