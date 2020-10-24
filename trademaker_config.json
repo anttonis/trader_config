@@ -12,8 +12,8 @@
     }
   },
   "trade_server":{
-    "172.93.221.153":["anttrader"],
-    "172.93.221.137":["anttrader"],
+    "172.93.221.153":["ztrader"],
+    "172.93.221.137":["ztrader"],
     "86.14.86.105":["ant_altcoin"],
     "62.31.101.98":["dev_trader"],
     "188.230.160.240":["dev_trader"],
@@ -47,10 +47,10 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"normal",
-    "buy_amount":0.0016,
-    "sell_amount":0.0016,
+    "buy_amount":0.003,
+    "sell_amount":0.003,
     "order_type":"market",
-    "last_trader_state":"sell"
+    "last_trader_state":"buy"
   },
   "dev_trader":{
     "timeout":3,
