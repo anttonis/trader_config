@@ -27,8 +27,8 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"percent",
-    "buy_amount":100,
-    "sell_amount":100,
+    "buy_amount":1,
+    "sell_amount":1,
     "order_type":"market",
     "last_trader_state":"buy"
   },
