@@ -12,6 +12,12 @@
             "active":true,
             "watch_loop":60
         },
+        "45.14.107.101":{
+            "module":"trade_fetcher",
+            "server":"osk",
+            "active":true,
+            "watch_loop":60
+        },
         "172.93.221.153":{
             "module":"tick_trader",
             "server":"jp1",
@@ -28,7 +34,8 @@
     "watchdog_priority":{
         "trade_fetcher":{
             "172.93.220.237":1,
-            "89.212.155.85":2
+            "89.212.155.85":2,
+            "45.14.107.101":3
         },
         "tick_trader":{
             "172.93.221.153":1,
