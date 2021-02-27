@@ -36,7 +36,7 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"normal",
-    "buy_amount":0.,
+    "buy_amount":0.0003,
     "sell_amount":0.0003,
     "order_type":"market",
     "last_trader_state":"sell"
