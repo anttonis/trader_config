@@ -12,7 +12,7 @@
             "active":true,
             "watch_loop":60
         },
-        "45.14.107.101":{
+        "109.107.140.174":{
             "module":"trade_fetcher",
             "server":"osk",
             "active":true,
