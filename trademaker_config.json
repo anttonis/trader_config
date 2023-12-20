@@ -46,10 +46,10 @@
     "pair1":"BTC",
     "pair2":"USDT",
     "asset_trade_type":"normal",
-    "buy_amount":0.0003,
-    "sell_amount":0.0003,
+    "buy_amount":95,
+    "sell_amount":95,
     "order_type":"market",
-    "last_trader_state":"buy"
+    "last_trader_state":"sell"
   },
   "dev_trader":{
     "timeout":3,
