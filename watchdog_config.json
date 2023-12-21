@@ -18,15 +18,15 @@
             "active":true,
             "watch_loop":60
         },
-        "172.93.221.153":{
+        "43.239.249.230":{
             "module":"tick_trader",
-            "server":"jp1",
+            "server":"kwm-jp",
             "active":true,
             "watch_loop":10
         },
-        "172.93.221.137":{
+        "172.93.221.28":{
             "module":"tick_trader",
-            "server":"jp2",
+            "server":"jpt",
             "active":true,
             "watch_loop":10
         }
@@ -38,13 +38,13 @@
             "172.93.220.237":3
         },
         "tick_trader":{
-            "172.93.221.153":1,
-            "89.212.155.85":2
+            "43.239.249.230":1,
+            "172.93.221.28":2
         }
     },
     "tick_trader_priority":{
-        "172.93.221.137":1,
-        "172.93.221.153":2
+        "43.239.249.230":1,
+        "172.93.221.28":2
     },
     "notify_type":["email", "slack"],
     "_comment_notify_type":["email", "slack", "sms"]
