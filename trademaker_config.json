@@ -20,7 +20,8 @@
     "188.230.160.240":["dev_trader"],
     "89.212.155.85":["dev_trader"],
     "89.212.163.0":["dev_trader"],
-    "178.58.189.97":["dev_trader"]
+    "178.58.189.97":["dev_trader"],
+    "178.58.212.11":["dev_trader"]
   },
   "anttrader":{
     "timeout":3,
