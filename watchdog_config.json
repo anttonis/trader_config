@@ -24,7 +24,7 @@
             "active":true,
             "watch_loop":10
         },
-        "172.93.221.28":{
+        "109.107.137.15":{
             "module":"tick_trader",
             "server":"jpt",
             "active":true,
@@ -39,12 +39,12 @@
         },
         "tick_trader":{
             "43.239.249.230":1,
-            "172.93.221.28":2
+            "109.107.137.15":2
         }
     },
     "tick_trader_priority":{
         "43.239.249.230":1,
-        "172.93.221.28":2
+        "109.107.137.15":2
     },
     "notify_type":["email", "slack"],
     "_comment_notify_type":["email", "slack", "sms"]
