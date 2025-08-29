@@ -29,6 +29,12 @@
             "server":"jpt",
             "active":true,
             "watch_loop":10
+        }, 
+        "31.15.209.59":{
+            "module":"webhook",
+            "server":"jarse",
+            "active":true,
+            "watch_loop":60
         }
     },
     "watchdog_priority":{
